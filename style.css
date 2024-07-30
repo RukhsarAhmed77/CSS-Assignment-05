@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f0f2f5;
+    margin-top: 200px;
+    position: relative;
+}
+
+.left{
+    width: 50%;
+}
+
+.right{
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    margin-left: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px gray;
+}
+
+#forgot{
+    text-decoration: none;
+}
+#forgot:hover{
+    text-decoration: underline;
+}
+#create{
+    font-weight: bold; 
+    background-color : #42b72a; 
+    padding: 10px;
+}
+#create:hover{
+    background-color: #36a420;
+}
+.create{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.create:hover{
+    color: black;
+    text-decoration: underline;
+}
+.text{
+    margin-top: 5px;
+    margin-left: 80px;
+}
